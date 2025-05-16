@@ -154,52 +154,94 @@ h1 {
 .holiday-section-container {
   width: 1320px;
   height: 986.07px;
-  
+
   margin: 0 auto;
   margin-top: 100px;
   position: relative;
 }
-.holiday-text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 1068px;
-height: 260px;
-margin: 0 auto;
-
+.holiday-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
 }
-.holiday-text-container h5{
-    color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-
+.holiday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
-.holiday-text-container h2{
-    font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
+.holiday-text-container h2 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
 }
-.holiday-text-container p{
-    color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
+.holiday-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
 }
-.solid-color{
-    width: 1320px;
-height: 229px;
-background-color: red;
-position: absolute;
-top: 77%;
+.solid-color {
+  width: 1320px;
+  height: 229px;
+  background-color: red;
+  position: absolute;
+  top: 77%;
 }
-.giftbox{
-    width: 674.82px;
-height: 577.96px;
-position: relative;
-z-index: 1;
-display: flex;
-align-items: center;
-justify-content: space-between;
+.giftbox {
+  width: 674.82px;
+  height: 577.96px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* portfolio section styles */
+.portfolio-container {
+  width: 1320px;
+  height: 1163px;
+ 
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.portfolio-text-content {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-text-content h6 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-text-content h4 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.portfolio-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.item {
+  width: 424px;
+  height: 450px;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-items {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
