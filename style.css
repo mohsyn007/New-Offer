@@ -20,7 +20,7 @@ body {
 
   min-height: 600px;
   margin-top: 20px;
-  background-image: url("/images/banner.png");
+  background-image: url('./images/banner.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -97,7 +97,7 @@ h1 {
 
   margin: 0 auto;
   display: flex;
-  background-image: url("images/Vectorrr.png");
+  background-image: url('images/Vectorrr.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ h1 {
 .portfolio-container {
   width: 1320px;
   height: 1163px;
- 
+
   margin: 0 auto;
   margin-top: 120px;
 }
@@ -244,4 +244,53 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+
+}
+/* Footer styles */
+.footer-container {
+  width: 1320px;
+  margin: 0 auto;
+  height: 609px;
+ 
+ 
+  background-color: black;
+}
+.contact{
+    display: flex;
+    color: white;
+}
+.footer-container{
+   
+    
+}
+.footer-first-section{
+    color: white;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 60px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.hr{
+    width: 90%;
+    margin: 0 auto; 
+    margin-bottom: 50px;
+}
+.social-icons{
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    margin-bottom: 100px;
+
+justify-content: space-evenly;}
+.footer-end-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
 }
