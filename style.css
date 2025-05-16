@@ -1,7 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
- 
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
 
 /* google font  */
-body{
-      font-family: "Merriweather", serif;
+body {
+  font-family: "Merriweather", serif;
 }
+
+/* common styles */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/* common styles end  */
+
+/* banner styles start from here */
+.banner-container {
+  max-width: 1320px;
+  margin: 0 auto;
+
+  min-height: 600px;
+  margin-top: 20px;
+  background-image: url("/images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+}
+.banner-content p,
+h1 {
+  color: white;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 600px;
+  justify-content: center;
+}
+.banner-content p {
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-content h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+/* Banner Section styles ends here */
+/* 65% offer section start here */
+.second-section-container {
+  width: 802.9px;
+  height: 806px;
+  border: 2px solid blue;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+/* 65% offer section end here */
