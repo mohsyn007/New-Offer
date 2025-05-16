@@ -94,21 +94,21 @@ h1 {
 .midnight-party-section {
   width: 1320px;
   height: 600px;
-  
+
   margin: 0 auto;
   display: flex;
   background-image: url("images/Vectorrr.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   margin-top: 80px;
 }
 .left-side-content {
   width: 50%;
   height: 600px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,21 +132,74 @@ h1 {
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
- text-align: center;
-text-transform: uppercase;
-margin-right: 450px;
-margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 450px;
+  margin-top: 30px;
 }
 .right-side-content {
   width: 50%;
   height: 600px;
- 
+
   justify-content: center;
   align-items: center;
   display: flex;
 }
-.right-side-content img{
- width: 319.83px;
-height: 464.66px;
+.right-side-content img {
+  width: 319.83px;
+  height: 464.66px;
 }
-/* midnight party section styles start here */
+/* midnight party section styles end here */
+/* holiday style start here */
+.holiday-section-container {
+  width: 1320px;
+  height: 986.07px;
+  
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+height: 260px;
+margin: 0 auto;
+
+}
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.holiday-text-container h2{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.solid-color{
+    width: 1320px;
+height: 229px;
+background-color: red;
+position: absolute;
+top: 77%;
+}
+.giftbox{
+    width: 674.82px;
+height: 577.96px;
+position: relative;
+z-index: 1;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
